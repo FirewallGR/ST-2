@@ -1,4 +1,4 @@
-
+// Copyright 2024 Gontsov Roman
 #include <gtest/gtest.h>
 #include <cstdint>
 #include <cmath>
