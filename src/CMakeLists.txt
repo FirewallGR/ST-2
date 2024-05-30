@@ -7,4 +7,4 @@ set(src circle.cpp
         tasks.cpp)
 
 add_library(${PROJECT_NAME} SHARED
-  ${header}
+  ${header})
