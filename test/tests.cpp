@@ -3,7 +3,7 @@
 #include <cstdint>
 #include <cmath>
 #include "circle.h"
-#include "task.h"
+#include "tasks.h"
 
 const double EPS = 1.0e-9;
 
@@ -85,6 +85,7 @@ TEST(CIRCLE_CLASS_ALL_TESTED_GROUP, setFerence_negative_input) {
 TEST(CIRCLE_CLASS_ALL_TESTED_GROUP, zero_constructor_arg) {
     EXPECT_ANY_THROW(Circle(0.0));
 }
+
 TEST(CIRCLE_CLASS_ALL_TESTED_GROUP, setRadius_zero_input) {
     Circle circle(1.0);
     EXPECT_ANY_THROW(circle.setRadius(0.0));
@@ -97,6 +98,7 @@ TEST(CIRCLE_CLASS_ALL_TESTED_GROUP, setFerence_zero_input) {
     Circle circle(1.0);
     EXPECT_ANY_THROW(circle.setFerence(0.0));
 }
+
 TEST(TASKS_ALL_TESTED_GROUP, ropeAroundPlanetTask_Earth_1m) {
     EXPECT_NEAR(ropeAroundPlanetTask(6371000.0, 1.0), M_1_PI * 0.5, EPS);
 }

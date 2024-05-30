@@ -1,6 +1,6 @@
 // Copyright 2024 Gontsov Roman
-#ifndef INCLUDE_TASK_H_
-#define INCLUDE_TASK_H_
+#ifndef INCLUDE_TASKS_H_
+#define INCLUDE_TASKS_H_
 
 #include <utility>
 
@@ -16,4 +16,4 @@ double pathAroundPoolAndFencePriceTask(
     double fencePrice
 );
 
-#endif //INCLUDE_TASK_H_
+#endif //INCLUDE_TASKS_H_

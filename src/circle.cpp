@@ -1,9 +1,4 @@
 // Copyright 2024 Gontsov Roman
-#include <cstdint>
-#include <cmath>
-#include <stdexcept>
-#include "circle.h"
-
 double Circle::getRadius() const {
     return radius;
 }
